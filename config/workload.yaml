@@ -9,6 +9,8 @@ spec:
   params:
     - name: run-image
       value: harbor.terasky.demo/tap-apps/tanzu-java-web-app
+    - name: tekton-pipeline-name
+      value: developer-defined-tekton-pipeline
   source:
     git:
       url: https://github.com/sample-accelerators/tanzu-java-web-app
